@@ -1,0 +1,119 @@
+/*
+****** LIMPAR FORMATAÇÕES ******
+*/
+
+*{
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*
+****** FORMATAÇÕES GENÉRICAS ******
+*/
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f5d9ed;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--rosa-claro);
+}
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.ul li{
+    margin: 0 35px;
+    font-size: 18px;
+}
+
+.ul li a{
+    color: var(--rosa-claro);
+}
+
+
+
+h1{
+    color: #300018;
+    font-size: 40px;
+}
+
+h2{
+    color: #a00070;
+}
+
+/*
+****** HEADER ******
+*/
+header{
+    background-color: #cc0088;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+logo, menu{
+    padding: 08px;
+    
+}
+
+header a:link, header a:visited{
+    color: #faf7f9;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #cc0088;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.white{
+    color:#FFFFFF ;
+}
+
+/*
+*****SECTION*****
+*/
+
+
+ section{
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+    background-color:  #f5d9ed;
+    
+    
+}
+
+img src {
+    width: 620px;
+}
+
+
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #FFFFFF;
+    color: #cc0088;
+}
